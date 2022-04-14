@@ -31,3 +31,22 @@ Work In Progress. Proof-of-concept.
 This app uses audio part of [g3n](https://github.com/g3n/engine) game engine, which uses OpenAL.
 
 `player.go` is modified file from `g3n`, as original didn't expose any way to seek in loaded file.
+
+## Example config file (`spanth.toml`)
+
+```
+Physical = 0
+Port = 1
+# Dump = 1
+Address = 1
+Channels = 12
+Advanced = 1
+
+[[Sample]]
+File = "engine.ogg"
+Loop = true
+
+[[Sample]]
+Name = "EngineWithVeryLongName"
+File = "engine.ogg"
+```
