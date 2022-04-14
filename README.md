@@ -22,9 +22,9 @@ Work In Progress. Proof-of-concept.
 
 ## TODO
 
-[ ] MIDI control.
-[ ] Webpage with status.
-[ ] RPC.
+- [ ] MIDI control.
+- [ ] Webpage with status.
+- [ ] RPC.
 
 ## Internals
 
